@@ -72,7 +72,7 @@ return "That item is not in your cart.";
 function placeOrder(cardNumber) {
   
   
-  if(cardNumber.length===0)
+  if(cardNumber[0]===undefined)
   {
     return "Sorry, we don't have a credit card on file for you.";
   }
