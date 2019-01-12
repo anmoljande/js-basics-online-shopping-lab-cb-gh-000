@@ -78,14 +78,10 @@ function placeOrder(cardNumber) {
   }
   else
   {
-    var bill=0;
-    for(var i=0;i<cart.length;i++)
-    {
-      var obj=cart.pop();
-      bill+=obj.itemPrice;
-      
-    }
-    console.log(cardNumber);
+    var bill=total();
+   
+
+return `Your total cost is $${bill}, which will be charged to the card ${cardNumber}.`
   }
   
   
