@@ -79,7 +79,10 @@ function placeOrder(cardNumber) {
   else
   {
     
-    for(var i=0;)
+    for(var i=0;i<cart.length;i++)
+    {
+      
+    }
     console.log(cardNumber);
   }
   
