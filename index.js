@@ -78,9 +78,11 @@ function placeOrder(cardNumber) {
   }
   else
   {
-    
+    var bill=0;
     for(var i=0;i<cart.length;i++)
     {
+      var obj=cart.pop();
+      bill+=obj.itemPrice;
       
     }
     console.log(cardNumber);
