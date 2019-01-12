@@ -78,6 +78,7 @@ function placeOrder(cardNumber) {
   }
   else
   {
+    
     console.log(cardNumber);
   }
   
