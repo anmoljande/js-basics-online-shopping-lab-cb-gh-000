@@ -80,7 +80,7 @@ function placeOrder(cardNumber) {
   {
     var bill=total();
    
-cart.length=;
+cart.length=0;
 return `Your total cost is $${bill}, which will be charged to the card ${cardNumber}.`
   }
   
