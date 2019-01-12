@@ -73,8 +73,13 @@ function placeOrder(cardNumber) {
   
   
   if(cardNumber.length<1)
-  return "Sorry, we don't have a credit card on file for you.";
- 
+  {
+    return "Sorry, we don't have a credit card on file for you.";
+  }
+  else
+  {
+    console.log(cardNumber);
+  }
   
   
   // write your code here
