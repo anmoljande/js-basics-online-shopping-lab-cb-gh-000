@@ -74,13 +74,13 @@ function placeOrder(cardNumber) {
   
   if(cardNumber[0]===undefined)
   {
-    }
+    return "Sorry, we don't have a credit card on file for you.";
+  }
   else
   {
     
-    return "Sorry, we don't have a credit card on file for you.";
-  
-   // console.log(cardNumber);
+    
+    console.log(cardNumber);
   }
   
   
